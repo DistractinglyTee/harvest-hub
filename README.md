@@ -5,5 +5,3 @@
 - 
 - 📫 How to reach me
 - tatwona.mcguire@gmail.com
-- 
-- ⚡ Fun fact: 
