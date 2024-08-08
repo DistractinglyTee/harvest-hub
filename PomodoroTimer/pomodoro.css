@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('assets/Lofi\ Studying\ Vibe.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.pomodoro-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer-display {
+    background: #fd9b638a;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+    color: #DBA979;
+    font-family: 'Satoshi-Regular';
+}
+h3 {
+    color: #FFBF78;
+    font-family: 'Satoshi-Variable';
+}
+.buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #365E32;
+    color: #E7D37F;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #81A263;
+}
+
+.buttons button:active {
+    background-color: #388e3c;
+}
